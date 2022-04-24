@@ -1,0 +1,30 @@
+body{
+        height: 100%;
+        width: 100%;
+        background-color:antiquewhite;
+        background-image: url(../images/friends_1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+}
+.sec_1{
+        height: 100vh;
+}
+h1{
+        color: rgb(15, 7, 0);
+
+        font-weight: 1000;
+
+}
+.bg-nav{
+        background-color:rgb(253, 239, 219);
+}
+.bg-foot{
+        background-color: rgb(253, 239, 219);
+}
+
+
+.bg-b{
+        background-color: rgb(183, 159, 105);
+}

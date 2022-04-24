@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes API</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.css"
+    rel="stylesheet"
+    />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-light bg-nav bg-gradient shadow-lg py-0">
+            <div class="container-fluid ">
+              <a class="navbar-brand" href="#">
+                <img src="images/central park.jpg" alt="" width="50" height="35" class="rounded-circle">
+              </a>
+            </div>
+          </nav>
+    </header>
+    <main>
+        
+        <section class="pb-5 text-dark text-center mb-5 sec_1">
+            <h1 class=" py-3">Friends Quotes</h1>
+              
+
+         
+            <div class="container mb-5 pb-5">
+                    <div class="row justify-content-center" id="quotes">
+                        <div class="col-6">
+                            <div class="card" style="width: 18rem;">
+                                <button type="submit" class="btn bg-gradient bg-b m-3" id="nextbtn">Next</button>
+                                <button type="submit" class="btn bg-gradient bg-b m-3" id="prevbtn">Previous</button>
+                                 <img src="images/friends_3.jpg" class="card-img-top" alt="..." id="image">
+                                <div class="card-body">
+                                    <blockquote class="blockquote mb-0" >
+                                      <p id="quote"></p>
+                                      <footer class="blockquote-footer" ><span id="charname"></span> <cite title="Source Title" id="">Friends TV Show</cite></footer>
+                                    </blockquote>
+                                    
+                                  </div>
+                                  
+                              </div>
+
+                              
+                        </div>
+                        </div>                      
+                     
+                    </div>
+                
+            
+        </section>
+        <section class="text-center text-dark">
+            <div class="container">
+              <div class="row justify-content-center"> 
+                  <div class="col p-5">
+                      <img src="images/friends_4.jpg" alt="" width="100%" height="auto" class="rounded">
+                  </div>
+              </div>
+          </div>
+      </section>
+    </main>
+      <footer class=" bg-foot bg-gradient shadow-lg">
+          <div class="container-fluid">
+              <div class="row justify-content-start p-2">
+                  
+                   
+                <div class="col-2">
+                    <a href="https://www.netflix.com/et/title/70153404" target="_blank">
+                        <img src="icons/netflix.png" alt="netflix" width="40" height="40" class="rounded-circle">
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="https://www.instagram.com/friends/?hl=en" target="_blank">
+                        <img src="icons/icons8-instagram.gif" alt="instagram" width="40" height="40" class="rounded-circle">
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href=" https://twitter.com/FriendsTV?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+                    " target="_blank">
+                        <img src="icons/icons8-twitter-circled.gif" alt="twitter" width="40" height="40" class="rounded-circle">
+                    </a>
+                </div>
+                
+              </div>
+          </div>
+      </footer>
+   
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="javascript/script.js"></script>
+<link rel="stylesheet" href="css/style.css">
+
+</html>
